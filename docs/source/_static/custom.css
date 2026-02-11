@@ -1,0 +1,29 @@
+/* docs/source/_static/custom.css */
+
+/* 95% content width */
+.wy-nav-content {
+  max-width: 95% !important;
+}
+
+/* Borders for docutils tables */
+table.docutils {
+  border-collapse: collapse;
+}
+
+table.docutils th,
+table.docutils td {
+  border: 1px solid #000;
+  padding: 6px;
+  vertical-align: top;
+}
+
+/* IMPORTANT: don't force fixed layout, it often causes horizontal scroll in RTD */
+.wy-table-responsive table {
+  width: 100%;
+}
+
+/* Let text wrap normally */
+.wy-table-responsive th,
+.wy-table-responsive td {
+  white-space: normal;
+}

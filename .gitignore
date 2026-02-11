@@ -1,7 +1,18 @@
 # Sphinx build output
-docs/build/
+_build/
 docs/_build/
+docs/build/
+build/
+dist/
 
 # Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+
